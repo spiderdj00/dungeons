@@ -17,6 +17,6 @@ public class Dungeon {
 
     @Override
     public String toString() {
-        return "Dungeon: " + Arrays.toString(rooms);
+        return name + Arrays.toString(rooms);
     }
 }
